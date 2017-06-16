@@ -7,7 +7,7 @@ function CreateYandexMap(longitude, latitude) {
         throw new Error('Static-Yandex-Map: Latitude can be from -90 to +90 degrees!');
     }
 
-    this.url = 'http://static-maps.yandex.ru/1.x/';
+    this.url = 'https://static-maps.yandex.ru/1.x/';
     this.parameters = {
         'll': longitude + ',' + latitude,
         'l': 'map',
